@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_onex.h"
+#include "test/test_othercoin.h"
 
 #include <algorithm>
 #include <iostream>

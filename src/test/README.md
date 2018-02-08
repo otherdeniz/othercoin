@@ -1,13 +1,13 @@
 # Notes
 The sources in this directory are unit test cases.  Boost includes a
-unit testing framework, and since Onex Core already uses boost, it makes
+unit testing framework, and since Othercoin Core already uses boost, it makes
 sense to simply use this framework rather than require developers to
 configure some other framework (we want as few impediments to creating
 unit tests as possible).
 
-The build system is setup to compile an executable called "test_onex"
+The build system is setup to compile an executable called "test_othercoin"
 that runs all of the unit tests.  The main source file is called
-test_onex.cpp, which simply includes other files that contain the
+test_othercoin.cpp, which simply includes other files that contain the
 actual unit tests (outside of a couple required preprocessor
 directives).  The pattern is to create one test file for each class or
 source file for which you want to create unit tests.  The file naming
@@ -22,14 +22,14 @@ For further reading, I found the following website to be helpful in
 explaining how the boost unit test framework works:
 [http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/](http://www.alittlemadness.com/2009/03/31/c-unit-testing-with-boosttest/).
 
-test_onex has some built-in command-line arguments; for
+test_othercoin has some built-in command-line arguments; for
 example, to run just the getarg_tests verbosely:
 
-    test_onex --log_level=all --run_test=getarg_tests
+    test_othercoin --log_level=all --run_test=getarg_tests
 
-... or to run just the doubleonex test:
+... or to run just the doubleothercoin test:
 
-    test_onex --run_test=getarg_tests/doubleonex
+    test_othercoin --run_test=getarg_tests/doubleothercoin
 
-Run  test_onex --help   for the full list.
+Run  test_othercoin --help   for the full list.
 

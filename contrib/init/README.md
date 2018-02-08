@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: onexd.service
-Upstart: onexd.conf
-OpenRC:  onexd.openrc
-         onexd.openrcconf
-CentOS:  onexd.init
-OS X:    org.onex.onexd.plist
+SystemD: othercoind.service
+Upstart: othercoind.conf
+OpenRC:  othercoind.openrc
+         othercoind.openrcconf
+CentOS:  othercoind.init
+OS X:    org.othercoin.othercoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

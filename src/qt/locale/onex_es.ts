@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Elija la dirección a la cual enviar los onex</translation>
+        <translation>Elija la dirección a la cual enviar los othercoin</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Elija la dirección donde recibirá los onex</translation>
+        <translation>Elija la dirección donde recibirá los othercoin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Onex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Onex para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar onexs.</translation>
+        <source>These are your Othercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Othercoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar othercoins.</translation>
     </message>
     <message>
-        <source>These are your Onex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones de Onex para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Othercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones de Othercoin para recibir pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirmar cifrado del monedero</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ONEX&lt;/b&gt;!</source>
-        <translation>Advertencia: Si cifra la cartera y pierde su contraseña, ¡&lt;b&gt;PERDERÁ TODOS SUS ONEX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OTC&lt;/b&gt;!</source>
+        <translation>Advertencia: Si cifra la cartera y pierde su contraseña, ¡&lt;b&gt;PERDERÁ TODOS SUS OTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>Onex will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your onexs from being stolen by malware infecting your computer.</source>
-        <translation>Onex se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus onexs del robo por un malware que infecte su sistema.</translation>
+        <source>Othercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your othercoins from being stolen by malware infecting your computer.</source>
+        <translation>Othercoin se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus othercoins del robo por un malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Onex address</source>
-        <translation>Enviar cuantía a una dirección Onex</translation>
+        <source>Send coins to a Othercoin address</source>
+        <translation>Enviar cuantía a una dirección Othercoin</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and onex: URIs)</source>
-        <translation>Solicitar pagos (genera códigos QR y URIs de Onex)</translation>
+        <source>Request payments (generates QR codes and othercoin: URIs)</source>
+        <translation>Solicitar pagos (genera códigos QR y URIs de Othercoin)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
-        <source>&amp;About Onex Core</source>
-        <translation>&amp;Acerca de Onex Core</translation>
+        <source>&amp;About Othercoin Core</source>
+        <translation>&amp;Acerca de Othercoin Core</translation>
     </message>
     <message>
-        <source>Show information about Onex Core</source>
-        <translation>Mostrar información acerca de Onex Core</translation>
+        <source>Show information about Othercoin Core</source>
+        <translation>Mostrar información acerca de Othercoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opciones...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Onex</source>
-        <translation>Modificar las opciones de configuración de Onex</translation>
+        <source>Modify configuration options for Othercoin</source>
+        <translation>Modificar las opciones de configuración de Othercoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Firmar &amp;mensaje...</translation>
     </message>
     <message>
-        <source>Sign messages with your Onex addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Onex para demostrar su posesión</translation>
+        <source>Sign messages with your Othercoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Othercoin para demostrar su posesión</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar el mensaje...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Onex addresses</source>
-        <translation>Verificar mensajes para comprobar que fueron firmados con la dirección Onex indicada</translation>
+        <source>Verify messages to ensure they were signed with specified Othercoin addresses</source>
+        <translation>Verificar mensajes para comprobar que fueron firmados con la dirección Othercoin indicada</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a onex: URI or payment request</source>
-        <translation>Abrir un onex: URI o petición de pago</translation>
+        <source>Open a othercoin: URI or payment request</source>
+        <translation>Abrir un othercoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Onex Core client</source>
-        <translation>Cliente Onex Core</translation>
+        <source>Othercoin Core client</source>
+        <translation>Cliente Othercoin Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Sincronizando datos adicionales: %p%</translation>
     </message>
     <message>
-        <source>Show the Onex Core help message to get a list with possible Onex command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de Onex Core para obtener una lista con las posibles opciones de la consola de comandos</translation>
+        <source>Show the Othercoin Core help message to get a list with possible Othercoin command-line options</source>
+        <translation>Mostrar el mensaje de ayuda de Othercoin Core para obtener una lista con las posibles opciones de la consola de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Onex network</source>
-        <translation><numerusform>%n conexion(es) activa a la red Onex</numerusform><numerusform>%n conexion(es) activas a la red Onex</numerusform></translation>
+        <source>%n active connection(s) to Othercoin network</source>
+        <translation><numerusform>%n cothercoinion(es) activa a la red Othercoin</numerusform><numerusform>%n cothercoinion(es) activas a la red Othercoin</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -626,7 +626,7 @@ Dirección: %4
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Selección de Onex</translation>
+        <translation>Selección de Othercoin</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -864,28 +864,28 @@ Dirección: %4
         <translation>Por favor, seleccione el nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 ONEX</source>
-        <translation>Usar 2 nodos maestros distintos para mezclar fondos hasta 1000 ONEX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 OTC</source>
+        <translation>Usar 2 nodos maestros distintos para mezclar fondos hasta 1000 OTC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 ONEX</source>
-        <translation>Usar 8 nodos maestros diferentes para mezclar fondos hasta 1000 ONEX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 OTC</source>
+        <translation>Usar 8 nodos maestros diferentes para mezclar fondos hasta 1000 OTC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Usar 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 ONEX to anonymize 1000 ONEX</source>
-        <translation>Esta es la opción más rápida y anonimizar 1000 ONEX costará alrededor de 0.025 ONEX</translation>
+        <source>This option is the quickest and will cost about ~0.025 OTC to anonymize 1000 OTC</source>
+        <translation>Esta es la opción más rápida y anonimizar 1000 OTC costará alrededor de 0.025 OTC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 ONEX to anonymize 1000 ONEX</source>
-        <translation>Esta opción es moderadamente rápida y anonimizar 1000 ONEX costará alrededor de 0.05 ONEX</translation>
+        <source>This option is moderately fast and will cost about 0.05 OTC to anonymize 1000 OTC</source>
+        <translation>Esta opción es moderadamente rápida y anonimizar 1000 OTC costará alrededor de 0.05 OTC</translation>
     </message>
     <message>
-        <source>0.1 ONEX per 1000 ONEX you anonymize.</source>
-        <translation>0.1 ONEX por cada 1000 ONEX que anonimice.</translation>
+        <source>0.1 OTC per 1000 OTC you anonymize.</source>
+        <translation>0.1 OTC por cada 1000 OTC que anonimice.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Dirección: %4
         <translation>Configuración de Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Onex's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la básica (%1 y 2 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Onex.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Othercoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la básica (%1 y 2 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Othercoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Onex's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la alta (%1 y 8 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Onex.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Othercoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la alta (%1 y 8 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Othercoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Onex's configuration screen.</source>
-        <translation>Darksend fue configurado con éxito en la máxima (%1 y 16 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Onex.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Othercoin's configuration screen.</source>
+        <translation>Darksend fue configurado con éxito en la máxima (%1 y 16 rondas). Puede cambiarlo en cualquier momento abriendo la pantalla de configuración de Othercoin.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Dirección: %4
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Onex address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Onex válida.</translation>
+        <source>The entered address "%1" is not a valid Othercoin address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Othercoin válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Dirección: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Onex Core</source>
-        <translation>Acerca de Onex Core</translation>
+        <source>About Othercoin Core</source>
+        <translation>Acerca de Othercoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Dirección: %4
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Onex Core.</source>
-        <translation>Bienvenido a Onex Core</translation>
+        <source>Welcome to Othercoin Core.</source>
+        <translation>Bienvenido a Othercoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Onex Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Onex Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Othercoin Core will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Othercoin Core.</translation>
     </message>
     <message>
-        <source>Onex Core will download and store a copy of the Onex block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Onex Core va a descargar y guardar una copia de la cadena de bloques de Onex. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <source>Othercoin Core will download and store a copy of the Othercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Othercoin Core va a descargar y guardar una copia de la cadena de bloques de Othercoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Dirección: %4
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Dirección: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Onex after logging in to the system.</source>
-        <translation>Iniciar Onex automáticamente al ingresar en el sistema.</translation>
+        <source>Automatically start Othercoin after logging in to the system.</source>
+        <translation>Iniciar Othercoin automáticamente al ingresar en el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Onex on system login</source>
-        <translation>&amp;Iniciar Onex al ingresar en el sistema</translation>
+        <source>&amp;Start Othercoin on system login</source>
+        <translation>&amp;Iniciar Othercoin al ingresar en el sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Dirección: %4
         <translation>Esta cuantía sirve de umbral para que Darksend se apague, una vez sea alcanzada.</translation>
     </message>
     <message>
-        <source>Amount of Onex to keep anonymized</source>
-        <translation>Cuantía de Onex a mantener anónima</translation>
+        <source>Amount of Othercoin to keep anonymized</source>
+        <translation>Cuantía de Othercoin a mantener anónima</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1167,15 +1167,15 @@ Dirección: %4
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Aceptar conexiones desde el exterior</translation>
+        <translation>Aceptar cothercoiniones desde el exterior</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Permitir conexiones entrantes</translation>
+        <translation>Permitir cothercoiniones entrantes</translation>
     </message>
     <message>
-        <source>Connect to the Onex network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red Onex a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Othercoin network through a SOCKS5 proxy.</source>
+        <translation>Conectarse a la red Othercoin a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Dirección: %4
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>Automatically open the Onex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Onex en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Othercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Othercoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Dirección: %4
         <translation>I&amp;dioma de la interfaz de usuario</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Onex.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará después de reiniciar Onex.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Othercoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará después de reiniciar Othercoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/onex/</source>
+https://www.transifex.com/projects/p/othercoin/</source>
         <translation>¿Idioma no disponible o traducción incompleta? Contribuye a la traducción aquí:
-https://www.transifex.com/projects/p/onex/</translation>
+https://www.transifex.com/projects/p/othercoin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1277,7 +1277,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían onexs.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar las cuantías en la interfaz y cuando se envían othercoins.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Onex network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Onex después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Othercoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Othercoin después de que se haya establecido una cothercoinión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Cuantía y Rondas:</translation>
     </message>
     <message>
-        <source>0 ONEX / 0 Rounds</source>
-        <translation>0 ONEX / 0 Rondas</translation>
+        <source>0 OTC / 0 Rounds</source>
+        <translation>0 OTC / 0 Rondas</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Error en solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start onex: click-to-pay handler</source>
-        <translation>No se pudo iniciar onex: manejador de pago-al-clic</translation>
+        <source>Cannot start othercoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar othercoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Dirección de pago no válida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Onex address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Onex inválida o a parámetros de URI mal formados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Othercoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Othercoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Cuantía</translation>
     </message>
     <message>
-        <source>Enter a Onex address (e.g. %1)</source>
-        <translation>Introduzca una dirección Onex (e.g. %1)</translation>
+        <source>Enter a Othercoin address (e.g. %1)</source>
+        <translation>Introduzca una dirección Othercoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1761,10 +1761,10 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Número de conexiones</translation>
+        <translation>Número de cothercoiniones</translation>
     </message>
     <message>
-        <source>Open the Onex debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Othercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede requerir varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1881,7 +1881,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Tiempo de Conexión</translation>
+        <translation>Tiempo de Cothercoinión</translation>
     </message>
     <message>
         <source>Last Send</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Salientes:</translation>
     </message>
     <message>
-        <source>Welcome to the Onex RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Onex</translation>
+        <source>Welcome to the Othercoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Othercoin</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>&amp;Reutilizar una dirección receptora existente (no recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Onex network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, el cual se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Onex.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Othercoin network.</source>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, el cual se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Othercoin.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Etiqueta opcional para asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Onex network.</source>
-        <translation>Un mensaje opcional para adjuntar con la solicitud de pago, el cual aparecerá cuando ésta sea abierta.&lt;br&gt;Nota: El mensaje no se enviará con el pago a la red Onex.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Othercoin network.</source>
+        <translation>Un mensaje opcional para adjuntar con la solicitud de pago, el cual aparecerá cuando ésta sea abierta.&lt;br&gt;Nota: El mensaje no se enviará con el pago a la red Othercoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2201,7 +2201,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Onex</translation>
+        <translation>Enviar Othercoin</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2284,16 +2284,16 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Minimizar</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se establece en 1000 duffs y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 duffs de comisión,&lt;br /&gt;mientras que "como mínimo" paga 1000 duffs. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 blinggis in fee,&lt;br /&gt;while "at least" pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se establece en 1000 blinggis y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 blinggis de comisión,&lt;br /&gt;mientras que "como mínimo" paga 1000 blinggis. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se establece en 1000 duffs y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 duffs de comisión,&lt;br /&gt;mientras que "total como mínimo" paga 1000 duffs. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 blinggis in fee,&lt;br /&gt;while "total at least" pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se establece en 1000 blinggis y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 blinggis de comisión,&lt;br /&gt;mientras que "total como mínimo" paga 1000 blinggis. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for onex transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones onex a la procesable por la red.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for othercoin transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones othercoin a la procesable por la red.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de onexs</translation>
+        <translation>Confirmar el envío de othercoins</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
@@ -2485,19 +2485,19 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los onexs de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los onex se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los othercoins de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los othercoin se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Error: El monedero se desbloqueó solo para anonimizar onexs.</translation>
+        <translation>Error: El monedero se desbloqueó solo para anonimizar othercoins.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar sólo la comisión mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Onex address</source>
-        <translation>Aviso: Dirección de Onex no válida</translation>
+        <source>Warning: Invalid Othercoin address</source>
+        <translation>Aviso: Dirección de Othercoin no válida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Pagar &amp;a:</translation>
     </message>
     <message>
-        <source>The Onex address to send the payment to</source>
-        <translation>La dirección Onex a la cual enviar el pago</translation>
+        <source>The Othercoin address to send the payment to</source>
+        <translation>La dirección Othercoin a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the onex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Onex network.</source>
-        <translation>Un mensaje que se adjuntó al onex: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Onex.</translation>
+        <source>A message that was attached to the othercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Othercoin network.</source>
+        <translation>Un mensaje que se adjuntó al othercoin: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Othercoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/onex/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Onex Core is shutting down...</source>
-        <translation>Onex Core se está cerrando...</translation>
+        <source>Othercoin Core is shutting down...</source>
+        <translation>Othercoin Core se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Puede firmar mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarle para suplantar su identidad. Firme solo declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Onex address to sign the message with</source>
-        <translation>La dirección Onex con la cual se firma el mensaje</translation>
+        <source>The Othercoin address to sign the message with</source>
+        <translation>La dirección Othercoin con la cual se firma el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Onex address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Onex</translation>
+        <source>Sign the message to prove you own this Othercoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Othercoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Onex address the message was signed with</source>
-        <translation>La dirección Onex con la cual se firmó el mensaje</translation>
+        <source>The Othercoin address the message was signed with</source>
+        <translation>La dirección Othercoin con la cual se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Onex address</source>
-        <translation>Verificar el mensaje para garantizar que fue firmado con la dirección Onex indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Othercoin address</source>
+        <translation>Verificar el mensaje para garantizar que fue firmado con la dirección Othercoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/onex/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Onex Core developers</source>
-        <translation>Los desarrolladores del Onex Core</translation>
+        <source>The Othercoin Core developers</source>
+        <translation>Los desarrolladores del Othercoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2791,7 +2791,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/sin conexión</translation>
+        <translation>%1/sin cothercoinión</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2919,7 +2919,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los onexs generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los othercoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2981,7 +2981,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Sin conexión</translation>
+        <translation>Sin cothercoinión</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
@@ -3273,11 +3273,11 @@ https://www.transifex.com/projects/p/onex/</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar Onex</translation>
+        <translation>Enviar Othercoin</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 ONEX.</source>
-        <translation>InstantX aún no soporta el envío de valores tan elevados. Las transacciones están limitadas actualmente a %1 ONEX.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 OTC.</source>
+        <translation>InstantX aún no soporta el envío de valores tan elevados. Las transacciones están limitadas actualmente a %1 OTC.</translation>
     </message>
 </context>
 <context>
@@ -3320,18 +3320,18 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
 </context>
 <context>
-    <name>onex-core</name>
+    <name>othercoin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Onex Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Onex Core.</translation>
+        <source>Cannot obtain a lock on data directory %s. Othercoin Core is probably already running.</source>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Othercoin Core.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos onexs más. </translation>
+        <translation>Darksend utiliza cuantías denominadas exactas para enviar fondos, simplemente necesita anonimizar algunos othercoins más. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3339,7 +3339,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Error: Ha fallado la escucha de conexiones entrantes (listen ha devuelto el error %s)</translation>
+        <translation>Error: Ha fallado la escucha de cothercoiniones entrantes (listen ha devuelto el error %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Onex Core is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. Onex Core probablemente ya está en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. Othercoin Core is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. Othercoin Core probablemente ya está en funcionamiento.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>No se pueden localizar fondos denominados de Darksend suficientes para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 ONEX.</source>
-        <translation>No se pueden localizar fondos no denominados de Darksend suficientes para esta transacción que no sean iguales a 1000 ONEX.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 OTC.</source>
+        <translation>No se pueden localizar fondos no denominados de Darksend suficientes para esta transacción que no sean iguales a 1000 OTC.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3428,11 +3428,11 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceptar conexiones desde el exterior (predeterminado: 1 si no -proxy o -connect)</translation>
+        <translation>Aceptar cothercoiniones desde el exterior (predeterminado: 1 si no -proxy o -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Añadir un nodo al que conectarse y tratar de mantener la conexión abierta</translation>
+        <translation>Añadir un nodo al que conectarse y tratar de mantener la cothercoinión abierta</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3484,7 +3484,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opciones de conexión:</translation>
+        <translation>Opciones de cothercoinión:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3584,7 +3584,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Permitir conexiones JSON-RPC desde la fuente especificada. El dato de &lt;ip&gt; válido puede ser una IP única (e.g. 1.2.3.4), una red/máscara de red (e.g. 1.2.3.4/255.255.255.0) ó una red/CIDR (e.g. 1.2.3.4/24). Esta opción se puede indicar múltiples veces</translation>
+        <translation>Permitir cothercoiniones JSON-RPC desde la fuente especificada. El dato de &lt;ip&gt; válido puede ser una IP única (e.g. 1.2.3.4), una red/máscara de red (e.g. 1.2.3.4/255.255.255.0) ó una red/CIDR (e.g. 1.2.3.4/24). Esta opción se puede indicar múltiples veces</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
@@ -3596,7 +3596,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Vincular a la dirección dada para escuchar conexiones JSON-RPC. Use la notación [servidor]:puerto de IPv6. Esta opción se puede indicar múltiples veces (predeterminado: vincular a todos los interfaces)</translation>
+        <translation>Vincular a la dirección dada para escuchar cothercoiniones JSON-RPC. Use la notación [servidor]:puerto de IPv6. Esta opción se puede indicar múltiples veces (predeterminado: vincular a todos los interfaces)</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3615,8 +3615,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Borrar todas las transacciones del monedero y recuperar únicamente aquellas partes de la cadena de bloques a través de -rescan en el inicio</translation>
     </message>
     <message>
-        <source>Disable all Onex specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desactivar todas las funciones asociadas a Onex (Nodos Maestros, Darksend, InstantX, Presupuesto) (0-1, predeterminado: %u)</translation>
+        <source>Disable all Othercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desactivar todas las funciones asociadas a Othercoin (Nodos Maestros, Darksend, InstantX, Presupuesto) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3635,12 +3635,12 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Error: Se encontró el argumento no permitido -socks. Ajustar la versión de SOCKS ya no es posible, sólo se admiten proxies SOCKS5</translation>
     </message>
     <message>
-        <source>Fees (in ONEX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Las comisiones (en ONEX/Kb) menores a ésta se consideran como cero a efectos de transmisión (predeterminado: %s)</translation>
+        <source>Fees (in OTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Las comisiones (en OTC/Kb) menores a ésta se consideran como cero a efectos de transmisión (predeterminado: %s)</translation>
     </message>
     <message>
-        <source>Fees (in ONEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Las comisiones (en ONEX/Kb) menores a ésta se consideran como cero a efectos de creación de transacciones (predeterminado: %s)</translation>
+        <source>Fees (in OTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Las comisiones (en OTC/Kb) menores a ésta se consideran como cero a efectos de creación de transacciones (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3680,7 +3680,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Número de segundos en que se evita la reconexión de pares con mal comportamiento (predeterminado: %u)</translation>
+        <translation>Número de segundos en que se evita la recothercoinión de pares con mal comportamiento (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -3688,7 +3688,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Ofrecer liquidez a Darksend mezclando onex con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
+        <translation>Ofrecer liquidez a Darksend mezclando othercoin con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3700,7 +3700,7 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Establecer el número de hilos para la generación de onex cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
+        <translation>Establecer el número de hilos para la generación de othercoin cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
@@ -3711,32 +3711,32 @@ https://www.transifex.com/projects/p/onex/</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para su uso en el Toolkit OpenSSL &lt;https://www.openssl.org/&gt; y software criptográfico escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use onexd, or the -server option to onex-qt, you must set an rpcpassword in the configuration file:
+        <source>To use othercoind, or the -server option to othercoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=onexrpc
+rpcuser=othercoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Onex Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Othercoin Alert" admin@foo.com
 </source>
-        <translation>Para usar onexd, o la opción -server de onex-qt, debe establecer rpcpassword en el archivo de configuración:
+        <translation>Para usar othercoind, o la opción -server de othercoin-qt, debe establecer rpcpassword en el archivo de configuración:
 %s
 Es recomendable que use la contraseña aleatoria siguiente:
-rpcuser=onexrpc
+rpcuser=othercoinrpc
 rpcpassword=%s
 (no necesita recordar esta contraseña)
 El nombre de usuario y la contraseña NO DEBEN ser iguales.
 Si el archivo no existe, créelo con permisos de sólo lectura para su propietario.
 También resulta recomendable establecer alertnotify para que se le notifique de posibles problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Othercoin" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 ONEX.</source>
-        <translation>No se pueden localizar fondos suficientes para esta transacción que no sean iguales a 1000 ONEX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 OTC.</source>
+        <translation>No se pueden localizar fondos suficientes para esta transacción que no sean iguales a 1000 OTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3747,8 +3747,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Aviso: ¡-maxtxfee se estableció en un valor muy alto! Comisiones tan grandes no se podrían pagar en una única transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Onex Core will not work properly.</source>
-        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Onex Core no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Othercoin Core will not work properly.</source>
+        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Othercoin Core no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3801,8 +3801,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Copyright (C) 2009-%i Los Desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Onex Core Developers</source>
-        <translation>Copyright (C) 2014-%i Los Desarrolladores de Onex Core</translation>
+        <source>Copyright (C) 2014-%i The Othercoin Core Developers</source>
+        <translation>Copyright (C) 2014-%i Los Desarrolladores de Othercoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3833,8 +3833,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Error al conectar al Nodo Maestro.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Onex Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Onex Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Othercoin Core</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Othercoin Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3849,8 +3849,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Error: Se encontró el argumento no soportado -tor, use -onion.</translation>
     </message>
     <message>
-        <source>Fee (in ONEX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en ONEX/kB) a añadir sobre las transacciones que envíe (predeterminado: %s)</translation>
+        <source>Fee (in OTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en OTC/kB) a añadir sobre las transacciones que envíe (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3870,7 +3870,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Generar onex (predeterminado: %u)</translation>
+        <translation>Generar othercoin (predeterminado: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3905,8 +3905,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Onex Core is shutting down.</source>
-        <translation>La comprobación de validez de inicio falló. Onex Core se está cerrando.</translation>
+        <source>Initialization sanity check failed. Othercoin Core is shutting down.</source>
+        <translation>La comprobación de validez de inicio falló. Othercoin Core se está cerrando.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3958,11 +3958,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Escuchar a conexiones JSON-RPC en el &lt;port&gt; (predeterminado: %u ó testnet: %u)</translation>
+        <translation>Escuchar a cothercoiniones JSON-RPC en el &lt;port&gt; (predeterminado: %u ó testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Escuchar a las conexiones en el &lt;port&gt; (predeterminado: %u ó testnet: %u)</translation>
+        <translation>Escuchar a las cothercoiniones en el &lt;port&gt; (predeterminado: %u ó testnet: %u)</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
@@ -3986,15 +3986,15 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Mantener como máximo &lt;n&gt; conexiones a pares (predeterminado: %u)</translation>
+        <translation>Mantener como máximo &lt;n&gt; cothercoiniones a pares (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Buffer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
+        <translation>Buffer de recepción máximo por cothercoinión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Buffer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
+        <translation>Buffer de recepción máximo por cothercoinión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
@@ -4082,7 +4082,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Indicar tiempo máximo de desconexión en milisegundos (mínimo: 1, predeterminado: %d)</translation>
+        <translation>Indicar tiempo máximo de descothercoinión en milisegundos (mínimo: 1, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
@@ -4142,7 +4142,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Umbral para la desconexión de pares con mal comportamiento (predeterminado: %u)</translation>
+        <translation>Umbral para la descothercoinión de pares con mal comportamiento (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
@@ -4157,8 +4157,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Usar UPnP para asignar el puerto de escucha (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Onex Core to complete</source>
-        <translation>El monedero se ha de reescribir: reinicie Onex Core para completarlo</translation>
+        <source>Wallet needed to be rewritten: restart Othercoin Core to complete</source>
+        <translation>El monedero se ha de reescribir: reinicie Othercoin Core para completarlo</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4217,8 +4217,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
         <translation>Clave KeePassHttp para la comunicación cifrada AES con KeePass</translation>
     </message>
     <message>
-        <source>Keep N ONEX anonymized (default: %u)</source>
-        <translation>Conservar N ONEX anónimos (predeterminado: %u)</translation>
+        <source>Keep N OTC anonymized (default: %u)</source>
+        <translation>Conservar N OTC anónimos (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4294,7 +4294,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Contraseña para las conexiones JSON-RPC</translation>
+        <translation>Contraseña para las cothercoiniones JSON-RPC</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
@@ -4306,7 +4306,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>Soporte de RPC para conexiones HTTP persistentes (predeterminado: %d)</translation>
+        <translation>Soporte de RPC para cothercoiniones HTTP persistentes (predeterminado: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -4462,7 +4462,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Usar OpenSSL (https) para las conexiones JSON-RPC</translation>
+        <translation>Usar OpenSSL (https) para las cothercoiniones JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -4474,7 +4474,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Onex" admin@foo.com
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nombre de usuario para las conexiones JSON-RPC</translation>
+        <translation>Nombre de usuario para las cothercoiniones JSON-RPC</translation>
     </message>
     <message>
         <source>Value more than Darksend pool maximum allows.</source>

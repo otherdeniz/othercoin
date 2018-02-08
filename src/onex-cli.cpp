@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -75,12 +75,12 @@ static int AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Onex Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Othercoin Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  onex-cli [options] <command> [params]  " + _("Send command to Onex Core") + "\n" +
-                  "  onex-cli [options] help                " + _("List commands") + "\n" +
-                  "  onex-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  othercoin-cli [options] <command> [params]  " + _("Send command to Othercoin Core") + "\n" +
+                  "  othercoin-cli [options] help                " + _("List commands") + "\n" +
+                  "  othercoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

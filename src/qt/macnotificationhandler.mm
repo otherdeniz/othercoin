@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.onex.Onex-Qt";
+        return @"org.othercoin.Othercoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

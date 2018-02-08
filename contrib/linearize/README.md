@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install onex_hash
+## Step 0: Install othercoin_hash
 
-https://github.com/onexcoin/onex_hash
+https://github.com/othercoincoin/othercoin_hash
 
 ## Step 1: Download hash list
 

@@ -4,22 +4,22 @@
 
 	* means the category has an associated class
 	
-	COnexNetwork: Onex NETWORK (ROOT)
+	COthercoinNetwork: Othercoin NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<COnexProject> vecProjects;
+		vector<COthercoinProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	COnexProject:
+	COthercoinProject:
 	has:
 		name
 		employees
 
 */
 
-	// Onex NETWORK (ROOT)
+	// Othercoin NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=ONEXDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=OTCDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

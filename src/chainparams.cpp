@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Onex Cash Genesis Block mined by Onex Cash Team";
+    const char* pszTimestamp = "Othercoin Cash Genesis Block mined by Othercoin Cash Team";
     const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -83,8 +83,8 @@ public:
         consensus.BIP34Height = 227931; // FIX
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan =  40 * 1.5 * 60; // Onex: 1 hour, 45 blocks
-        consensus.nPowTargetSpacing =  1.5 * 60;      // Onex: 90 seconds
+        consensus.nPowTargetTimespan =  40 * 1.5 * 60; // Othercoin: 1 hour, 45 blocks
+        consensus.nPowTargetSpacing =  1.5 * 60;      // Othercoin: 90 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -118,22 +118,22 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000ee3a55532114881619e15da9dac3bb73f2875b2dc775106d2d37478cdeb"));
         assert(genesis.hashMerkleRoot     == uint256S("0x991548dbdcf66408146039b1309cd39b439e54ddfccd4008556944397a8803e6"));
 
-        vSeeds.push_back(CDNSSeedData("onex.cash", "seed1.onex.cash"));
-        vSeeds.push_back(CDNSSeedData("onex.cash", "seed2.onex.cash"));
-        vSeeds.push_back(CDNSSeedData("onex.cash", "seed3.onex.cash"));
-        vSeeds.push_back(CDNSSeedData("onex.cash", "seed4.onex.cash"));
+        vSeeds.push_back(CDNSSeedData("othercoin.cash", "seed1.othercoin.cash"));
+        vSeeds.push_back(CDNSSeedData("othercoin.cash", "seed2.othercoin.cash"));
+        vSeeds.push_back(CDNSSeedData("othercoin.cash", "seed3.othercoin.cash"));
+        vSeeds.push_back(CDNSSeedData("othercoin.cash", "seed4.othercoin.cash"));
 
-        // Onex addresses start with 'X'
+        // Othercoin addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,75);
-        // Onex script addresses start with '5'
+        // Othercoin script addresses start with '5'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,0);
-        // Onex private keys start with '5' or 'X' (?)
+        // Othercoin private keys start with '5' or 'X' (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,75);
-        // Onex BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Othercoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Onex BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Othercoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // Onex BIP44 coin type is '5'
+        // Othercoin BIP44 coin type is '5'
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -201,8 +201,8 @@ public:
         consensus.BIP34Height = 21111; // FIX
         consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 60 * 60; // Onex: 1 hour
-        consensus.nPowTargetSpacing = 2 * 60;   // Onex: 1 minutes
+        consensus.nPowTargetTimespan = 60 * 60; // Othercoin: 1 hour
+        consensus.nPowTargetSpacing = 2 * 60;   // Othercoin: 1 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -234,19 +234,19 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("onex.cash",  "testnet.onex.cash"));
+        vSeeds.push_back(CDNSSeedData("othercoin.cash",  "testnet.othercoin.cash"));
 
-        // Testnet Onex addresses start with 'n'
+        // Testnet Othercoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Testnet Onex script addresses start with '9'
+        // Testnet Othercoin script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Testnet Onex BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Othercoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Onex BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Othercoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Onex BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Othercoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -302,8 +302,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Onex: 1 hour
-        consensus.nPowTargetSpacing = 2 * 60; // Onex: 2 minutes
+        consensus.nPowTargetTimespan = 60 * 60; // Othercoin: 1 hour
+        consensus.nPowTargetSpacing = 2 * 60; // Othercoin: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
@@ -348,17 +348,17 @@ public:
             0,
             0
         };
-        // Regtest Onex addresses start with 'n'
+        // Regtest Othercoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
-        // Regtest Onex script addresses start with '9'
+        // Regtest Othercoin script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Regtest Onex BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Othercoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Onex BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Othercoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Onex BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Othercoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

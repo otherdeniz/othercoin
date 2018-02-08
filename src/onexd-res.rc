@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Onex"
-            VALUE "FileDescription",    "onexd (Onex node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Othercoin"
+            VALUE "FileDescription",    "othercoind (Othercoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "onexd"
+            VALUE "InternalName",       "othercoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "onexd.exe"
-            VALUE "ProductName",        "onexd"
+            VALUE "OriginalFilename",   "othercoind.exe"
+            VALUE "ProductName",        "othercoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

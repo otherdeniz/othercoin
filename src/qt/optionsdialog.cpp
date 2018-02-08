@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/onex-config.h"
+#include "config/othercoin-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -90,10 +90,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("ONEX-light"), QVariant("light"));
-    ui->theme->addItem(QString("ONEX-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("ONEX-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("ONEX-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("OTC-light"), QVariant("light"));
+    ui->theme->addItem(QString("OTC-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("OTC-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("OTC-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");

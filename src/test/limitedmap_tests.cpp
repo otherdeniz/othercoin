@@ -4,7 +4,7 @@
 
 #include "limitedmap.h"
 
-#include "test/test_onex.h"
+#include "test/test_othercoin.h"
 
 #include <boost/test/unit_test.hpp>
 

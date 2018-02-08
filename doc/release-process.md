@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/onexcoin/onex/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/othercoincoin/othercoin/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -10,14 +10,14 @@ Release Process
 Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
-	git clone https://github.com/onexcoin/gitian.sigs.git
-	git clone https://github.com/onexcoin/onex-detached-sigs.git
+	git clone https://github.com/othercoincoin/gitian.sigs.git
+	git clone https://github.com/othercoincoin/othercoin-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/onexcoin/onex.git
+	git clone https://github.com/othercoincoin/othercoin.git
 
-###Onex Core maintainers/release engineers, update (commit) version in sources
+###Othercoin Core maintainers/release engineers, update (commit) version in sources
 
-	pushd ./onex
+	pushd ./othercoin
 	contrib/verifysfbinaries/verify.sh
 	configure.ac
 	doc/README*
@@ -40,7 +40,7 @@ Check out the source code in the following directory hierarchy.
 
  Setup Gitian descriptors:
 
-	pushd ./onex
+	pushd ./othercoin
 	export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
 	git fetch
@@ -76,52 +76,52 @@ Check out the source code in the following directory hierarchy.
 
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
-	make -C ../onex/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../othercoin/depends download SOURCES_PATH=`pwd`/cache/common
 
 Only missing files will be fetched, so this is safe to re-run for each build.
 
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 ```
-./bin/gbuild --url onex=/path/to/onex,signature=/path/to/sigs {rest of arguments}
+./bin/gbuild --url othercoin=/path/to/othercoin,signature=/path/to/sigs {rest of arguments}
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-###Build and sign Onex Core for Linux, Windows, and OS X:
+###Build and sign Othercoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit onex=v${VERSION} ../onex/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../onex/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/onex-*.tar.gz build/out/src/onex-*.tar.gz ../
+	./bin/gbuild --commit othercoin=v${VERSION} ../othercoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../othercoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/othercoin-*.tar.gz build/out/src/othercoin-*.tar.gz ../
 
-	./bin/gbuild --commit onex=v${VERSION} ../onex/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../onex/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/onex-*-win-unsigned.tar.gz inputs/onex-win-unsigned.tar.gz
-	mv build/out/onex-*.zip build/out/onex-*.exe ../
+	./bin/gbuild --commit othercoin=v${VERSION} ../othercoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../othercoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/othercoin-*-win-unsigned.tar.gz inputs/othercoin-win-unsigned.tar.gz
+	mv build/out/othercoin-*.zip build/out/othercoin-*.exe ../
 
-	./bin/gbuild --commit onex=v${VERSION} ../onex/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../onex/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/onex-*-osx-unsigned.tar.gz inputs/onex-osx-unsigned.tar.gz
-	mv build/out/onex-*.tar.gz build/out/onex-*.dmg ../
+	./bin/gbuild --commit othercoin=v${VERSION} ../othercoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../othercoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/othercoin-*-osx-unsigned.tar.gz inputs/othercoin-osx-unsigned.tar.gz
+	mv build/out/othercoin-*.tar.gz build/out/othercoin-*.dmg ../
 	popd
 
   Build output expected:
 
-  1. source tarball (onex-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (onex-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (onex-${VERSION}-win[32|64]-setup-unsigned.exe, onex-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (onex-${VERSION}-osx-unsigned.dmg, onex-${VERSION}-osx64.tar.gz)
+  1. source tarball (othercoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (othercoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (othercoin-${VERSION}-win[32|64]-setup-unsigned.exe, othercoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (othercoin-${VERSION}-osx-unsigned.dmg, othercoin-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ###Verify other gitian builders signatures to your own. (Optional)
 
   Add other gitian builders keys to your gpg keyring
 
-	gpg --import ../onex/contrib/gitian-downloader/*.pgp
+	gpg --import ../othercoin/contrib/gitian-downloader/*.pgp
 
   Verify the signatures
 
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../onex/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../onex/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../onex/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../othercoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../othercoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../othercoin/contrib/gitian-descriptors/gitian-osx.yml
 
 	popd
 
@@ -139,25 +139,25 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [onex-detached-sigs](https://github.com/onexcoin/onex-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [othercoin-detached-sigs](https://github.com/othercoincoin/othercoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../onex/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../onex/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../onex/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/onex-osx-signed.dmg ../onex-${VERSION}-osx.dmg
+	./bin/gbuild -i --commit signature=v${VERSION} ../othercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../othercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../othercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/othercoin-osx-signed.dmg ../othercoin-${VERSION}-osx.dmg
 	popd
 
   Create (and optionally verify) the signed Windows binaries:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../onex/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../onex/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../onex/contrib/gitian-descriptors/gitian-win-signer.yml
-	mv build/out/onex-*win64-setup.exe ../onex-${VERSION}-win64-setup.exe
-	mv build/out/onex-*win32-setup.exe ../onex-${VERSION}-win32-setup.exe
+	./bin/gbuild -i --commit signature=v${VERSION} ../othercoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../othercoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../othercoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/othercoin-*win64-setup.exe ../othercoin-${VERSION}-win64-setup.exe
+	mv build/out/othercoin-*win32-setup.exe ../othercoin-${VERSION}-win32-setup.exe
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -182,21 +182,21 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the onex.org server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the othercoin.org server
 
-- Update onex.org
+- Update othercoin.org
 
 - Announce the release:
 
-  - Release on Onex forum: https://www.onex.org/forum/topic/official-announcements.54/
+  - Release on Othercoin forum: https://www.othercoin.org/forum/topic/official-announcements.54/
 
-  - Onex-development mailing list
+  - Othercoin-development mailing list
 
-  - Update title of #onexcoin on Freenode IRC
+  - Update title of #othercoincoin on Freenode IRC
 
-  - Optionally reddit /r/Onexpay, ... but this will usually sort out itself
+  - Optionally reddit /r/Othercoinpay, ... but this will usually sort out itself
 
-- Notify flare so that he can start building [the PPAs](https://launchpad.net/~onex.org/+archive/ubuntu/onex)
+- Notify flare so that he can start building [the PPAs](https://launchpad.net/~othercoin.org/+archive/ubuntu/othercoin)
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

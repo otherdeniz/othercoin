@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Onex RPC command dispatcher.
+ * Othercoin RPC command dispatcher.
  */
 class CRPCTable
 {

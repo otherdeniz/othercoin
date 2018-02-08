@@ -1,15 +1,15 @@
 [Unit]
-Description=Onex's distributed currency daemon
+Description=Othercoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=onexcore
-Group=onexcore
+User=othercoincore
+Group=othercoincore
 
 Type=forking
-PIDFile=/var/lib/onexd/onexd.pid
-ExecStart=/usr/bin/onexd -daemon -pid=/var/lib/onexd/onexd.pid \
--conf=/etc/onexcore/onex.conf -datadir=/var/lib/onexd -disablewallet
+PIDFile=/var/lib/othercoind/othercoind.pid
+ExecStart=/usr/bin/othercoind -daemon -pid=/var/lib/othercoind/othercoind.pid \
+-conf=/etc/othercoincore/othercoin.conf -datadir=/var/lib/othercoind -disablewallet
 
 Restart=always
 PrivateTmp=true

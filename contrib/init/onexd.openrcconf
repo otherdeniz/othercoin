@@ -1,25 +1,25 @@
-# /etc/conf.d/onexd: config file for /etc/init.d/onexd
+# /etc/conf.d/othercoind: config file for /etc/init.d/othercoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/onexcore/onex.conf"
+#BITCOIND_CONFIGFILE="/etc/othercoincore/othercoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/onexd"
+#BITCOIND_PIDDIR="/var/run/othercoind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/onexd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/othercoind.pid"
 
-# Where to write onexd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/onexd"
+# Where to write othercoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/othercoind"
 
-# User and group to own onexd process
-#BITCOIND_USER="onexcore"
-#BITCOIND_GROUP="onexcore"
+# User and group to own othercoind process
+#BITCOIND_USER="othercoincore"
+#BITCOIND_GROUP="othercoincore"
 
-# Path to onexd executable
-#BITCOIND_BIN="/usr/bin/onexd"
+# Path to othercoind executable
+#BITCOIND_BIN="/usr/bin/othercoind"
 
-# Nice value to run onexd under
+# Nice value to run othercoind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

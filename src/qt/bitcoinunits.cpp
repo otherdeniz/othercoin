@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,10 +19,10 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(ONEX);
-    unitlist.append(mONEX);
-    unitlist.append(uONEX);
-    unitlist.append(duffs);
+    unitlist.append(OTC);
+    unitlist.append(mOTC);
+    unitlist.append(uOTC);
+    unitlist.append(blinggis);
     return unitlist;
 }
 
@@ -30,10 +30,10 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case ONEX:
-    case mONEX:
-    case uONEX:
-    case duffs:
+    case OTC:
+    case mOTC:
+    case uOTC:
+    case blinggis:
         return true;
     default:
         return false;
@@ -46,10 +46,10 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case ONEX: return QString("ONEX");
-            case mONEX: return QString("mONEX");
-            case uONEX: return QString::fromUtf8("μONEX");
-            case duffs: return QString("duffs");
+            case OTC: return QString("OTC");
+            case mOTC: return QString("mOTC");
+            case uOTC: return QString::fromUtf8("μOTC");
+            case blinggis: return QString("blinggis");
             default: return QString("???");
         }
     }
@@ -57,10 +57,10 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case ONEX: return QString("tONEX");
-            case mONEX: return QString("mtONEX");
-            case uONEX: return QString::fromUtf8("μtONEX");
-            case duffs: return QString("tduffs");
+            case OTC: return QString("tOTC");
+            case mOTC: return QString("mtOTC");
+            case uOTC: return QString::fromUtf8("μtOTC");
+            case blinggis: return QString("tblinggis");
             default: return QString("???");
         }
     }
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case ONEX: return QString("Onex");
-            case mONEX: return QString("Milli-Onex (1 / 1" THIN_SP_UTF8 "000)");
-            case uONEX: return QString("Micro-Onex (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Onex (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case OTC: return QString("Othercoin");
+            case mOTC: return QString("Milli-Othercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uOTC: return QString("Micro-Othercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case blinggis: return QString("Blinggis (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case ONEX: return QString("TestOnexs");
-            case mONEX: return QString("Milli-TestOnex (1 / 1" THIN_SP_UTF8 "000)");
-            case uONEX: return QString("Micro-TestOnex (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestOnex (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case OTC: return QString("TestOthercoins");
+            case mOTC: return QString("Milli-TestOthercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uOTC: return QString("Micro-TestOthercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case blinggis: return QString("TestBlinggis (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -96,10 +96,10 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case ONEX:  return 100000000;
-    case mONEX: return 100000;
-    case uONEX: return 100;
-    case duffs: return 1;
+    case OTC:  return 100000000;
+    case mOTC: return 100000;
+    case uOTC: return 100;
+    case blinggis: return 1;
     default:   return 100000000;
     }
 }
@@ -108,10 +108,10 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case ONEX: return 8;
-    case mONEX: return 5;
-    case uONEX: return 2;
-    case duffs: return 0;
+    case OTC: return 8;
+    case mOTC: return 5;
+    case uOTC: return 2;
+    case blinggis: return 0;
     default: return 0;
     }
 }

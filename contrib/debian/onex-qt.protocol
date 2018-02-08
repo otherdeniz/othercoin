@@ -1,6 +1,6 @@
 [Protocol]
-exec=onex-qt '%u'
-protocol=onex
+exec=othercoin-qt '%u'
+protocol=othercoin
 input=none
 output=none
 helper=true

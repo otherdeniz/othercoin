@@ -1,24 +1,24 @@
-bin_PROGRAMS += qt/onex-qt
+bin_PROGRAMS += qt/othercoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# onex qt core #
+# othercoin qt core #
 QT_TS = \
-  qt/locale/onex_bg.ts \
-  qt/locale/onex_de.ts \
-  qt/locale/onex_en.ts \
-  qt/locale/onex_es.ts \
-  qt/locale/onex_fi.ts \
-  qt/locale/onex_fr.ts \
-  qt/locale/onex_it.ts \
-  qt/locale/onex_ja.ts \
-  qt/locale/onex_pl.ts \
-  qt/locale/onex_pt.ts \
-  qt/locale/onex_ru.ts \
-  qt/locale/onex_sk.ts \
-  qt/locale/onex_sv.ts \
-  qt/locale/onex_vi.ts \
-  qt/locale/onex_zh_CN.ts \
-  qt/locale/onex_zh_TW.ts
+  qt/locale/othercoin_bg.ts \
+  qt/locale/othercoin_de.ts \
+  qt/locale/othercoin_en.ts \
+  qt/locale/othercoin_es.ts \
+  qt/locale/othercoin_fi.ts \
+  qt/locale/othercoin_fr.ts \
+  qt/locale/othercoin_it.ts \
+  qt/locale/othercoin_ja.ts \
+  qt/locale/othercoin_pl.ts \
+  qt/locale/othercoin_pt.ts \
+  qt/locale/othercoin_ru.ts \
+  qt/locale/othercoin_sk.ts \
+  qt/locale/othercoin_sv.ts \
+  qt/locale/othercoin_vi.ts \
+  qt/locale/othercoin_zh_CN.ts \
+  qt/locale/othercoin_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -93,16 +93,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/onex.moc \
+  qt/othercoin.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_onex.cpp
-QT_QRC = qt/onex.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_onex_locale.cpp
-QT_QRC_LOCALE = qt/onex_locale.qrc
+QT_QRC_CPP = qt/qrc_othercoin.cpp
+QT_QRC = qt/othercoin.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_othercoin_locale.cpp
+QT_QRC_LOCALE = qt/othercoin_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -422,7 +422,7 @@ RES_IMAGES = \
   qt/res/images/drkblue/about.png \
   qt/res/images/drkblue/splash.png \
   qt/res/images/drkblue/splash_testnet.png \
-  qt/res/images/drkblue/onex_logo_horizontal.png \
+  qt/res/images/drkblue/othercoin_logo_horizontal.png \
   qt/res/images/drkblue/unchecked.png \
   qt/res/images/drkblue/checked.png \
   qt/res/images/drkblue/drkblue_downArrow.png \
@@ -435,7 +435,7 @@ RES_IMAGES = \
   qt/res/images/crownium/about.png \
   qt/res/images/crownium/splash.png \
   qt/res/images/crownium/splash_testnet.png \
-  qt/res/images/crownium/onex_logo_horizontal.png \
+  qt/res/images/crownium/othercoin_logo_horizontal.png \
   qt/res/images/crownium/unchecked.png \
   qt/res/images/crownium/checked.png \
   qt/res/images/crownium/drkblue_downArrow.png \
@@ -448,7 +448,7 @@ RES_IMAGES = \
   qt/res/images/light/about.png \
   qt/res/images/light/splash.png \
   qt/res/images/light/splash_testnet.png \
-  qt/res/images/light/onex_logo_horizontal.png \
+  qt/res/images/light/othercoin_logo_horizontal.png \
   qt/res/images/light/unchecked.png \
   qt/res/images/light/checked.png \
   qt/res/images/light/drkblue_downArrow.png \
@@ -461,7 +461,7 @@ RES_IMAGES = \
   qt/res/images/trad/about.png \
   qt/res/images/trad/splash.png \
   qt/res/images/trad/splash_testnet.png \
-  qt/res/images/trad/onex_logo_horizontal.png \
+  qt/res/images/trad/othercoin_logo_horizontal.png \
   qt/res/images/trad/drkblue_downArrow.png \
   qt/res/images/trad/drkblue_downArrow_small.png \
   qt/res/images/trad/drkblue_upArrow_small.png \
@@ -477,7 +477,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/onex-qt-res.rc
+BITCOIN_RC = qt/res/othercoin-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms -DQT_NO_KEYWORDS
@@ -498,70 +498,70 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_onex_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_othercoin_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# onex-qt binary #
-qt_onex_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# othercoin-qt binary #
+qt_othercoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
-qt_onex_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_othercoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_onex_qt_SOURCES = qt/onex.cpp
+qt_othercoin_qt_SOURCES = qt/othercoin.cpp
 if TARGET_DARWIN
-  qt_onex_qt_SOURCES += $(BITCOIN_MM)
+  qt_othercoin_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_onex_qt_SOURCES += $(BITCOIN_RC)
+  qt_othercoin_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_onex_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_othercoin_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_onex_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_othercoin_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_onex_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_othercoin_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_onex_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_othercoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_onex_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_onex_qt_LIBTOOLFLAGS = --tag CXX
+qt_othercoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_othercoin_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-qt/onexstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/othercoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/onexstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/othercoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/onex_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/othercoin_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name onex_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name othercoin_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name onex $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name othercoin $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-onex_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_onex_qt_OBJECTS) qt/onex-qt$(EXEEXT) $(LIBBITCOINQT)
+othercoin_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_othercoin_qt_OBJECTS) qt/othercoin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-onex_qt : qt/onex-qt$(EXEEXT)
+othercoin_qt : qt/othercoin-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

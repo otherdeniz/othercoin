@@ -1,11 +1,11 @@
-Onex Core 0.12.1
+Othercoin Core 0.12.1
 =====================
 
-This is the official reference wallet for Onex digital currency and comprises the backbone of the Onex peer-to-peer network. You can [download Onex Core](https://www.onex.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Othercoin digital currency and comprises the backbone of the Othercoin peer-to-peer network. You can [download Othercoin Core](https://www.othercoin.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Onex on your native platform.
+The following are some helpful notes on how to run Othercoin on your native platform.
 
 ### Unix
 
@@ -16,22 +16,22 @@ Unpack the files into a directory and run:
 
 ### Windows
 
-Unpack the files into a directory, and then run onex-qt.exe.
+Unpack the files into a directory, and then run othercoin-qt.exe.
 
 ### OS X
 
-Drag Onex-Qt to your applications folder, and then run Onex-Qt.
+Drag Othercoin-Qt to your applications folder, and then run Othercoin-Qt.
 
 ### Need Help?
 
-* See the [Onex documentation](https://onexcoin.atlassian.net/wiki/display/DOC)
+* See the [Othercoin documentation](https://othercoincoin.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#onexcoin](http://webchat.freenode.net?channels=onexcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=onexcoin).
-* Ask for help on the [OnexTalk](https://onextalk.org/) forums.
+* Ask for help on [#othercoincoin](http://webchat.freenode.net?channels=othercoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=othercoincoin).
+* Ask for help on the [OthercoinTalk](https://othercointalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Onex Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Othercoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Onex Core on your native platf
 
 Development
 ---------------------
-The Onex Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Othercoin Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The Onex Core repo's [root README](/README.md) contains relevant information on 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [OnexTalk](https://onextalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#onexcoin](http://webchat.freenode.net/?channels=onexcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=onexcoin).
+* Discuss on the [OthercoinTalk](https://othercointalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#othercoincoin](http://webchat.freenode.net/?channels=othercoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=othercoincoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

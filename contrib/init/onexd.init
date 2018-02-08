@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  onexd The Onex Core server.
+#  othercoind The Othercoin Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: onexd
-# processname: onexd
+# description: othercoind
+# processname: othercoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/onexd, see below
-if [ -f /etc/sysconfig/onexd ]; then
-        . /etc/sysconfig/onexd
+# you can override defaults in /etc/sysconfig/othercoind, see below
+if [ -f /etc/sysconfig/othercoind ]; then
+        . /etc/sysconfig/othercoind
 fi
 
 RETVAL=0
 
-prog=onexd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/onexd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/onexd}
+prog=othercoind
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/othercoind
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/othercoind}
 
-# onexd defaults to /usr/bin/onexd, override with BITCOIND_BIN
-onexd=${BITCOIND_BIN-/usr/bin/onexd}
+# othercoind defaults to /usr/bin/othercoind, override with BITCOIND_BIN
+othercoind=${BITCOIND_BIN-/usr/bin/othercoind}
 
-# onexd opts default to -disablewallet, override with BITCOIND_OPTS
-onexd_opts=${BITCOIND_OPTS--disablewallet}
+# othercoind opts default to -disablewallet, override with BITCOIND_OPTS
+othercoind_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $onexd $onexd_opts
+    daemon $DAEMONOPTS $othercoind $othercoind_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

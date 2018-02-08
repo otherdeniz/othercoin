@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Onex"
-            VALUE "FileDescription",    "onex-cli (JSON-RPC client for Onex Core)"
+            VALUE "CompanyName",        "Othercoin"
+            VALUE "FileDescription",    "othercoin-cli (JSON-RPC client for Othercoin Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "onex-cli"
+            VALUE "InternalName",       "othercoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "onex-cli.exe"
-            VALUE "ProductName",        "onex-cli"
+            VALUE "OriginalFilename",   "othercoin-cli.exe"
+            VALUE "ProductName",        "othercoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

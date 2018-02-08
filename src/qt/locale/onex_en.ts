@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Onex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Onex addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Othercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Othercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Onex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Onex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Othercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Othercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -214,8 +214,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ONEX&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ONEX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OTC&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>Onex Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your onexs from being stolen by malware infecting your computer.</source>
-        <translation>Onex Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your onexs from being stolen by malware infecting your computer.</translation>
+        <source>Othercoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your othercoins from being stolen by malware infecting your computer.</source>
+        <translation>Othercoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your othercoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -309,8 +309,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+127"/>
         <location line="+919"/>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <location line="-910"/>
@@ -339,8 +339,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Onex address</source>
-        <translation>Send coins to a Onex address</translation>
+        <source>Send coins to a Othercoin address</source>
+        <translation>Send coins to a Othercoin address</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -349,8 +349,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and onex: URIs)</source>
-        <translation>Request payments (generates QR codes and onex: URIs)</translation>
+        <source>Request payments (generates QR codes and othercoin: URIs)</source>
+        <translation>Request payments (generates QR codes and othercoin: URIs)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -384,13 +384,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Onex Core</source>
-        <translation>&amp;About Onex Core</translation>
+        <source>&amp;About Othercoin Core</source>
+        <translation>&amp;About Othercoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Onex Core</source>
-        <translation>Show information about Onex Core</translation>
+        <source>Show information about Othercoin Core</source>
+        <translation>Show information about Othercoin Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -469,8 +469,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Onex addresses to prove you own them</source>
-        <translation>Sign messages with your Onex addresses to prove you own them</translation>
+        <source>Sign messages with your Othercoin addresses to prove you own them</source>
+        <translation>Sign messages with your Othercoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -479,8 +479,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Onex addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Onex addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Othercoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Othercoin addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -574,8 +574,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a onex: URI or payment request</source>
-        <translation>Open a onex: URI or payment request</translation>
+        <source>Open a othercoin: URI or payment request</source>
+        <translation>Open a othercoin: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -584,8 +584,8 @@
     </message>
     <message>
         <location line="+267"/>
-        <source>Onex Core client</source>
-        <translation>Onex Core client</translation>
+        <source>Othercoin Core client</source>
+        <translation>Othercoin Core client</translation>
     </message>
     <message>
         <location line="+334"/>
@@ -619,8 +619,8 @@
     </message>
     <message numerus="yes">
         <location line="+347"/>
-        <source>%n active connection(s) to Onex network</source>
-        <translation><numerusform>%n active connection to Onex network</numerusform><numerusform>%n active connections to Onex network</numerusform></translation>
+        <source>%n active connection(s) to Othercoin network</source>
+        <translation><numerusform>%n active connection to Othercoin network</numerusform><numerusform>%n active connections to Othercoin network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -654,8 +654,8 @@
     </message>
     <message>
         <location line="-567"/>
-        <source>Modify configuration options for Onex Core</source>
-        <translation>Modify configuration options for Onex Core</translation>
+        <source>Modify configuration options for Othercoin Core</source>
+        <translation>Modify configuration options for Othercoin Core</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -674,8 +674,8 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Show the Onex Core help message to get a list with possible Onex Core command-line options</source>
-        <translation>Show the Onex Core help message to get a list with possible Onex Core command-line options</translation>
+        <source>Show the Othercoin Core help message to get a list with possible Othercoin Core command-line options</source>
+        <translation>Show the Othercoin Core help message to get a list with possible Othercoin Core command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1164,13 +1164,13 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 ONEX</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 ONEX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 OTC</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1000 OTC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 ONEX</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 ONEX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 OTC</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1000 OTC</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1179,18 +1179,18 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 ONEX to anonymize 1000 ONEX</source>
-        <translation>This option is the quickest and will cost about ~0.025 ONEX to anonymize 1000 ONEX</translation>
+        <source>This option is the quickest and will cost about ~0.025 OTC to anonymize 1000 OTC</source>
+        <translation>This option is the quickest and will cost about ~0.025 OTC to anonymize 1000 OTC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 ONEX to anonymize 1000 ONEX</source>
-        <translation>This option is moderately fast and will cost about 0.05 ONEX to anonymize 1000 ONEX</translation>
+        <source>This option is moderately fast and will cost about 0.05 OTC to anonymize 1000 OTC</source>
+        <translation>This option is moderately fast and will cost about 0.05 OTC to anonymize 1000 OTC</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 ONEX per 1000 ONEX you anonymize.</source>
-        <translation>0.1 ONEX per 1000 ONEX you anonymize.</translation>
+        <source>0.1 OTC per 1000 OTC you anonymize.</source>
+        <translation>0.1 OTC per 1000 OTC you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -1206,18 +1206,18 @@
     </message>
     <message>
         <location line="-29"/>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Onex&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Othercoin&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1269,8 +1269,8 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Onex address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Onex address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Othercoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Othercoin address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1320,8 +1320,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1336,8 +1336,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Onex Core</source>
-        <translation>About Onex Core</translation>
+        <source>About Othercoin Core</source>
+        <translation>About Othercoin Core</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Onex in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 ONEX, 0.1 ONEX, 1 ONEX and 10 ONEX -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://onexcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://onexcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Onex in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 ONEX, 0.1 ONEX, 1 ONEX and 10 ONEX -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://onexcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://onexcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Othercoin in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 OTC, 0.1 OTC, 1 OTC and 10 OTC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://othercoincoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://othercoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Othercoin in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 OTC, 0.1 OTC, 1 OTC and 10 OTC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://othercoincoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://othercoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
     <message>
         <location line="-50"/>
@@ -1409,18 +1409,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Onex Core.</source>
-        <translation>Welcome to Onex Core.</translation>
+        <source>Welcome to Othercoin Core.</source>
+        <translation>Welcome to Othercoin Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Onex Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Onex Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Othercoin Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Othercoin Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Onex Core will download and store a copy of the Onex block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Onex Core will download and store a copy of the Onex block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Othercoin Core will download and store a copy of the Othercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Othercoin Core will download and store a copy of the Othercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1434,8 +1434,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,8 +1675,8 @@
     </message>
     <message>
         <location line="+155"/>
-        <source>Amount of Onex to keep anonymized</source>
-        <translation>Amount of Onex to keep anonymized</translation>
+        <source>Amount of Othercoin to keep anonymized</source>
+        <translation>Amount of Othercoin to keep anonymized</translation>
     </message>
     <message>
         <location line="-119"/>
@@ -1685,13 +1685,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start Onex Core after logging in to the system.</source>
-        <translation>Automatically start Onex Core after logging in to the system.</translation>
+        <source>Automatically start Othercoin Core after logging in to the system.</source>
+        <translation>Automatically start Othercoin Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Onex Core on system login</source>
-        <translation>&amp;Start Onex Core on system login</translation>
+        <source>&amp;Start Othercoin Core on system login</source>
+        <translation>&amp;Start Othercoin Core on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1750,8 +1750,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Onex Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Onex Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Othercoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Othercoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1765,8 +1765,8 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Onex network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Onex network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Othercoin network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Othercoin network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1780,8 +1780,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Onex Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Onex Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Othercoin Core.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Othercoin Core.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -1877,8 +1877,8 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Onex network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Onex network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the Othercoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the Othercoin network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1918,9 +1918,9 @@
     <message>
         <location line="+34"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/onex/</source>
+https://www.transifex.com/projects/p/othercoin/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/onex/</translation>
+https://www.transifex.com/projects/p/othercoin/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/projects/p/onex/</translation>
         <location line="+50"/>
         <location line="+355"/>
         <location line="+258"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Onex network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Onex network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Othercoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Othercoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-364"/>
@@ -2152,8 +2152,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 ONEX / 0 Rounds</source>
-        <translation>0 ONEX / 0 Rounds</translation>
+        <source>0 OTC / 0 Rounds</source>
+        <translation>0 OTC / 0 Rounds</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2382,8 +2382,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start onex: click-to-pay handler</source>
-        <translation>Cannot start onex: click-to-pay handler</translation>
+        <source>Cannot start othercoin: click-to-pay handler</source>
+        <translation>Cannot start othercoin: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2414,8 +2414,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Onex address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Onex address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Othercoin address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Othercoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+119"/>
-        <source>Enter a Onex address (e.g. %1)</source>
-        <translation>Enter a Onex address (e.g. %1)</translation>
+        <source>Enter a Othercoin address (e.g. %1)</source>
+        <translation>Enter a Othercoin address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+857"/>
@@ -2722,8 +2722,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Onex Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Onex Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Othercoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Othercoin Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+148"/>
-        <source>Welcome to the Onex Core RPC console.</source>
-        <translation>Welcome to the Onex Core RPC console.</translation>
+        <source>Welcome to the Othercoin Core RPC console.</source>
+        <translation>Welcome to the Othercoin Core RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Onex network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Onex network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Othercoin network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Othercoin network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3096,8 +3096,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Onex network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Onex network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Othercoin network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Othercoin network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3408,19 +3408,19 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="-488"/>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 blinggis in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 blinggis in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 blinggis in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 blinggis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 blinggis in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 blinggis. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for onex transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for onex transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for othercoin transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for othercoin transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3675,8 +3675,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+229"/>
-        <source>Warning: Invalid Onex address</source>
-        <translation>Warning: Invalid Onex address</translation>
+        <source>Warning: Invalid Othercoin address</source>
+        <translation>Warning: Invalid Othercoin address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3703,8 +3703,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Onex address to send the payment to</source>
-        <translation>The Onex address to send the payment to</translation>
+        <source>The Othercoin address to send the payment to</source>
+        <translation>The Othercoin address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="-1046"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Onex than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Onex than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Othercoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Othercoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3767,8 +3767,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the onex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Onex network.</source>
-        <translation>A message that was attached to the onex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Onex network.</translation>
+        <source>A message that was attached to the othercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Othercoin network.</source>
+        <translation>A message that was attached to the othercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Othercoin network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+119"/>
-        <source>Onex Core is shutting down...</source>
-        <translation>Onex Core is shutting down...</translation>
+        <source>Othercoin Core is shutting down...</source>
+        <translation>Othercoin Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3825,13 +3825,13 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Onex sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive Onex sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Othercoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive Othercoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Onex address to sign the message with</source>
-        <translation>The Onex address to sign the message with</translation>
+        <source>The Othercoin address to sign the message with</source>
+        <translation>The Othercoin address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3872,8 +3872,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Sign the message to prove you own this Onex address</source>
-        <translation>Sign the message to prove you own this Onex address</translation>
+        <source>Sign the message to prove you own this Othercoin address</source>
+        <translation>Sign the message to prove you own this Othercoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3903,13 +3903,13 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Onex address the message was signed with</source>
-        <translation>The Onex address the message was signed with</translation>
+        <source>The Othercoin address the message was signed with</source>
+        <translation>The Othercoin address the message was signed with</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Verify the message to ensure it was signed with the specified Onex address</source>
-        <translation>Verify the message to ensure it was signed with the specified Onex address</translation>
+        <source>Verify the message to ensure it was signed with the specified Othercoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Othercoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3997,8 +3997,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>Onex Core</source>
-        <translation>Onex Core</translation>
+        <source>Othercoin Core</source>
+        <translation>Othercoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4012,8 +4012,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Onex Core developers</source>
-        <translation>The Onex Core developers</translation>
+        <source>The Othercoin Core developers</source>
+        <translation>The Othercoin Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+21"/>
@@ -4665,8 +4665,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     <message>
         <location line="-28"/>
         <location line="+12"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ONEX.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ONEX.</translation>
+        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 OTC.</source>
+        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 OTC.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4723,16 +4723,16 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
 </context>
 <context>
-    <name>onex-core</name>
+    <name>othercoin-core</name>
     <message>
-        <location filename="../onexstrings.cpp" line="+34"/>
+        <location filename="../othercoinstrings.cpp" line="+34"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Onex Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Onex Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Othercoin Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Othercoin Core is probably already running.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -4781,8 +4781,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Onex Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Onex Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Othercoin Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Othercoin Core is probably already running.</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -5076,8 +5076,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 ONEX.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 ONEX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 OTC.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 OTC.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5131,8 +5131,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Onex Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Onex Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Othercoin Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Othercoin Core Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5146,8 +5146,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Onex Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Onex Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Othercoin Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Othercoin Core</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5201,8 +5201,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Onex Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Onex Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Othercoin Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Othercoin Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5491,8 +5491,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Wallet needed to be rewritten: restart Onex Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Onex Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Othercoin Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Othercoin Core to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5546,8 +5546,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N ONEX anonymized (default: %u)</source>
-        <translation>Keep N ONEX anonymized (default: %u)</translation>
+        <source>Keep N OTC anonymized (default: %u)</source>
+        <translation>Keep N OTC anonymized (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5556,8 +5556,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="-328"/>
-        <source>Disable all Onex specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disable all Onex specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <source>Disable all Othercoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Disable all Othercoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5621,8 +5621,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ONEX.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ONEX.</translation>
+        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 OTC.</source>
+        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 OTC.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5656,8 +5656,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Onex Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Onex Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Othercoin Core will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Othercoin Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5731,8 +5731,8 @@ https://www.transifex.com/projects/p/onex/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 ONEX.</source>
-        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 ONEX.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 OTC.</source>
+        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 OTC.</translation>
     </message>
     <message>
         <location line="+6"/>

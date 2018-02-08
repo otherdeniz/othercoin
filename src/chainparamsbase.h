@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between onex-cli and onexd)
- * of a given instance of the Onex system.
+ * CBaseChainParams defines the base parameters (shared between othercoin-cli and othercoind)
+ * of a given instance of the Othercoin system.
  */
 class CBaseChainParams
 {

@@ -137,7 +137,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../onex.qrc"/>
+  <include location="../othercoin.qrc"/>
  </resources>
  <connections/>
 </ui>

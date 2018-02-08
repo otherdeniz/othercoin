@@ -6,13 +6,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/onex
-src/onexd
-src/onex-cli
-src/onex-tx
-src/test/test_onex
-src/qt/test/test_onex-qt
-src/bench/bench_onex
+src/othercoin
+src/othercoind
+src/othercoin-cli
+src/othercoin-tx
+src/test/test_othercoin
+src/qt/test/test_othercoin-qt
+src/bench/bench_othercoin
 
 # autoreconf
 Makefile.in
@@ -35,8 +35,8 @@ config.log
 config.status
 configure
 libtool
-src/config/onex-config.h
-src/config/onex-config.h.in
+src/config/othercoin-config.h
+src/config/othercoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -62,7 +62,7 @@ libconftest.dylib*
 *.o
 *.o-*
 *.patch
-.onex
+.othercoin
 *.a
 *.pb.cc
 *.pb.h
@@ -81,12 +81,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-onex-qt
-onex-Qt.app
+othercoin-qt
+othercoin-Qt.app
 
 # Unit-tests
 Makefile.test
-onex-qt_test
+othercoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -100,7 +100,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_onex.coverage/
+test_othercoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -124,11 +124,11 @@ share/BitcoindComparisonTool.jar
 /doc/doxygen/
 
 libbitcoinconsensus.pc
-src/qt/onex-qt.bash
+src/qt/othercoin-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-onex-cli
-onexd
-onex-qt
+othercoin-cli
+othercoind
+othercoin-qt
 make

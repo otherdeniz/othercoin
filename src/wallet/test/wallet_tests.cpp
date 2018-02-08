@@ -9,7 +9,7 @@
 #include <utility>
 #include <vector>
 
-#include "test/test_onex.h"
+#include "test/test_othercoin.h"
 
 #include <boost/foreach.hpp>
 #include <boost/test/unit_test.hpp>

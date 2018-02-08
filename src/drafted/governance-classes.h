@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   COnexNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   COthercoinNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -79,7 +79,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  Onex NETWORK (ROOT)
+ *  Othercoin NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -117,7 +117,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.onex.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.othercoin.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class COnexNetwork : public CGovernanceObject
+class COthercoinNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    COnexNetwork(UniValue objIn)
+    COthercoinNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: OnexNetwork
+// // can be under: OthercoinNetwork
 // //   -- signature requirements : Key1(User)
-// class COnexNetworkVariable : public CGovernanceObject
+// class COthercoinNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == OnexNetwork);
+//     //     return (IsType() == OthercoinNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

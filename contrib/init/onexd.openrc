@@ -2,26 +2,26 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/onexcore/.onexcore" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/onexcore/.onexcore"
+if [ -d "/var/lib/othercoincore/.othercoincore" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/othercoincore/.othercoincore"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/onexd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/othercoind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/onexcore/onex.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/onexd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/onexd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/othercoincore/othercoin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/othercoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/othercoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-onexcore}}
-BITCOIND_GROUP=${BITCOIND_GROUP:-onexcore}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/onexd}
+BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-othercoincore}}
+BITCOIND_GROUP=${BITCOIND_GROUP:-othercoincore}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/othercoind}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="Onex Core Daemon"
-description="Onex cryptocurrency P2P network daemon"
+name="Othercoin Core Daemon"
+description="Othercoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/onexd"
+command="/usr/bin/othercoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run onexd."
+		eerror "ERROR: You must set a secure rpcpassword to run othercoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Onex Core Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Othercoin Core Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

@@ -28,8 +28,8 @@ INPUT(
 ./build/csvmodelwriter.o
 ./build/darksendconfig.o
 ./build/editaddressdialog.o
-./build/onex.o
-./build/onexstrings.o
+./build/othercoin.o
+./build/othercoinstrings.o
 ./build/guiutil.o
 ./build/intro.o
 ./build/masternodelist.o
@@ -66,8 +66,8 @@ INPUT(
 ./build/walletmodeltransaction.o
 ./build/walletview.o
 ./build/winshutdownmonitor.o
-./build/qrc_onex.o
-./build/qrc_onex_locale.o
+./build/qrc_othercoin.o
+./build/qrc_othercoin_locale.o
 ./build/crypter.o
 ./build/db.o
 ./build/rpcdump.o
@@ -145,8 +145,8 @@ INPUT(
 ./build/utilstrencodings.o
 ./build/validationinterface.o
 ./build/versionbits.o
-./build/onex-qt_plugin_import.o
-./build/qrc_onex.o
+./build/othercoin-qt_plugin_import.o
+./build/qrc_othercoin.o
 ./build/moc_bitcoingui.o
 ./build/moc_compattests.o
 ./build/moc_paymentservertests.o

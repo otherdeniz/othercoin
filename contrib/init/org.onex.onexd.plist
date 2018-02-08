@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.onex.onexd</string>
+	<string>org.othercoin.othercoind</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/onexd</string>
+		<string>/usr/local/bin/othercoind</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

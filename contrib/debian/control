@@ -1,8 +1,8 @@
-Source: onex
+Source: othercoin
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@onex.org>
-Uploaders: Holger Schinzel <holger@onex.org>
+Maintainer: Holger Schinzel <holger@othercoin.org>
+Uploaders: Holger Schinzel <holger@othercoin.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -24,45 +24,45 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.onex.org/
-Vcs-Git: git://github.com/onexcoin/onex.git
-Vcs-Browser: https://github.com/onexcoin/onex
+Homepage: https://www.othercoin.org/
+Vcs-Git: git://github.com/othercoincoin/othercoin.git
+Vcs-Browser: https://github.com/othercoincoin/othercoin
 
-Package: onexd
+Package: othercoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Onex is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Onex uses peer-to-peer
+ Othercoin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Othercoin uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Onex Core
+ and issuing money are carried out collectively by the network. Othercoin Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, onexd, and the CLI tool
- onex-cli to interact with the daemon.
+ This package provides the daemon, othercoind, and the CLI tool
+ othercoin-cli to interact with the daemon.
 
-Package: onex-qt
+Package: othercoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Onex is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Onex uses peer-to-peer
+ Othercoin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Othercoin uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Onex Core
+ and issuing money are carried out collectively by the network. Othercoin Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Onex-Qt, a GUI for Onex based on Qt.
+ This package provides Othercoin-Qt, a GUI for Othercoin based on Qt.
 
-Package: onex-tx
+Package: othercoin-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Onex is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Onex uses peer-to-peer
+ Othercoin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Othercoin uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Onex Core
+ and issuing money are carried out collectively by the network. Othercoin Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides onex-tx, a command-line transaction creation
- tool which can be used without a onex daemon.  Some means of
+ This package provides othercoin-tx, a command-line transaction creation
+ tool which can be used without a othercoin daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

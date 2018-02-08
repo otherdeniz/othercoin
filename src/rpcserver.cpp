@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Onex Core developers
+// Copyright (c) 2014-2017 The Othercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -243,11 +243,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Onex Core server.");
+            "\nStop Othercoin Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Onex Core server stopping";
+    return "Othercoin Core server stopping";
 }
 
 /**
@@ -342,19 +342,19 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Onex features */
-    { "onex",               "masternode",             &masternode,             true  },
-    { "onex",               "masternodelist",         &masternodelist,         true  },
-    { "onex",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "onex",               "gobject",                &gobject,                true  },
-    { "onex",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "onex",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "onex",               "voteraw",                &voteraw,                true  },
-    { "onex",               "mnsync",                 &mnsync,                 true  },
-    { "onex",               "spork",                  &spork,                  true  },
-    { "onex",               "getpoolinfo",            &getpoolinfo,            true  },
+    /* Othercoin features */
+    { "othercoin",               "masternode",             &masternode,             true  },
+    { "othercoin",               "masternodelist",         &masternodelist,         true  },
+    { "othercoin",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "othercoin",               "gobject",                &gobject,                true  },
+    { "othercoin",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "othercoin",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "othercoin",               "voteraw",                &voteraw,                true  },
+    { "othercoin",               "mnsync",                 &mnsync,                 true  },
+    { "othercoin",               "spork",                  &spork,                  true  },
+    { "othercoin",               "getpoolinfo",            &getpoolinfo,            true  },
 #ifdef ENABLE_WALLET
-    { "onex",               "privatesend",            &privatesend,            false },
+    { "othercoin",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -577,7 +577,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> onex-cli " + methodname + " " + args + "\n";
+    return "> othercoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)
