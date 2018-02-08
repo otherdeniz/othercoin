@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Onex"
-            VALUE "FileDescription",    "Onex Core (GUI node for Onex)"
+            VALUE "CompanyName",        "Wilde Horde"
+            VALUE "FileDescription",    "Othercoin Core (GUI node for Othercoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "onex-qt"
+            VALUE "InternalName",       "othercoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "onex-qt.exe"
-            VALUE "ProductName",        "Onex Core"
+            VALUE "OriginalFilename",   "othercoin-qt.exe"
+            VALUE "ProductName",        "Othercoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
